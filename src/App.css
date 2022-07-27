@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+.Screens{
+  background-color: bisque;
+}
+.theForm{  
+  display: flex;
+  justify-content: center;
+}
+.theForm, input, textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
